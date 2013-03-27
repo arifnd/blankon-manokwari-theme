@@ -31,7 +31,7 @@ function change {
 	echo "List of avaiable theme"
 	echo ""
 
-	FILE=($(ls | grep theme))
+	FILE=($(ls | grep manokwari))
 
 	for i in ${FILE[*]}; do
 		echo " $(($COUNT+1)) $i"
@@ -53,7 +53,7 @@ function change {
 
 		# Install new theme ================================================
 		echo "Install new theme..."
-		sudo cp -f $PWD/${FILE[$index-1]}/* /usr/lib/manokwari/system/
+		sudo cp -f $PWD/${FILE[$index-1]}/*.* /usr/lib/manokwari/system/
 		echo "Restart manokwari..."
 		killall manokwari
 	fi
@@ -63,8 +63,8 @@ function change {
 
 function menu {
 	echo "=================================================================="
-	echo "  Blankon Manokwari Theme Changer Script"
-	echo "  version 0.1.324"
+	echo "  Blankon Theme Changer Script"
+	echo "  version 0.1.327"
 	echo "------------------------------------------------------------------"
 	echo "You can use following function"
 	echo ""

@@ -1,0 +1,308 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: transparent;
+    font-family: Cantarell, sans-serif;
+    font-size: 15px;
+}
+
+.ui-page, .ui-content {
+    color: #aaaaaa;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ui-page {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 1;
+    background-color: #101010;
+    background: url(texture.jpg);
+}
+
+html {
+    overflow: hidden;
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+.ui-mobile-viewport {
+}
+
+.ui-animation-slide {
+    -webkit-transition: left 0.3s ease-out;
+}
+
+.ui-listview {
+    list-style:none;
+    margin-top: 10px;
+    margin-bottom:5px;
+    margin-left:5px;
+    margin-right: 5xp;
+    vertical-align: middle;
+    padding: 0px;
+    width: 300;
+}
+
+
+.ui-content {
+    margin: 10px 5px 5px 5px;
+    margin-bottom: 0px;
+}
+
+.ui-listview-item-icon {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.ui-listview-item-text {
+    vertical-align: middle;
+    text-align: left; 
+}
+
+.ui-listview-item:hover {
+    color: white;
+    text-shadow: 0 1px 1px #222;
+    background-color: rgba(100,100,100,1); 
+    border-style: solid;
+    border-width: 0px 0px 0px 6px;
+    border-color: #FF0000;
+    /*font-weight: bold;*/
+}
+
+.ui-listview-item {
+    background-color: rgba(100,100,100,0.2);
+    border-style: solid;
+    border-width: 0px 0px 0px 6px;
+    border-color: rgba(100,100,100,0.3); 
+    color: #222;
+    text-shadow: 0 1px 1px #eee;
+    vertical-align: middle;
+    display: block;
+    min-height: 28px;
+    text-align: left; 
+    border-radius: inherit;
+    cursor: pointer;
+    padding: 5px 10px 0px 10px;
+    margin: 0px;
+    white-space: nowrap;
+    /*font-weight: bold;*/
+    -webkit-transition: border-color 0.3s;
+    -webkit-transition-delay:0.2s;
+}
+
+.ui-listview-header {
+    border-radius: 0px;
+    margin: 2px 0px 2px 0px;
+    color: #1A1A1A;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px;
+    background: rgba(100,100,100,0.1);
+}
+
+.ui-listview-first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.ui-listview-last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.ui-link {
+    text-decoration: none;
+    color: inherit; 
+    vertical-align: middle;
+}
+
+
+span {
+    vertical-align: middle;
+}
+
+.ui-collapsible {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 300;
+}
+
+.ui-collapsible-header {
+    margin: 0px;
+    min-height: 28px;
+    padding: 5px 10px 0px 10px;
+    display: block;
+    color: #222;
+    text-shadow: 0 1px 1px #eee;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: rgba(100,100,100,0.2);
+    border-style: solid;
+    border-width: 0px 0px 0px 6px;
+    border-color: rgba(100,100,100,0.3);
+    /*font-weight: bold;*/
+    -webkit-transition: border-color 0.3s;
+    -webkit-transition-delay:0.2s;
+}
+
+
+.ui-collapsible-header:hover {
+    color: white;
+    text-shadow: 0 1px 1px #222;
+    background-color: rgba(100,100,100,1); 
+    border-style: solid;
+    border-width: 0px 0px 0px 6px;
+    border-color: #FF0000;
+    /*font-weight: bold;*/
+}
+
+.ui-collapsible-header-top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.ui-collapsible-header-bottom {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.ui-collapsible-control-group {
+    overflow: hidden;
+    margin: 10px;
+    -webkit-transition: height 0.2s ease-out;
+}
+
+.ui-back-button {
+    background-image: url("theme://back");
+    background-repeat: no-repeat;
+    color: red;
+    width: 24px;
+    height: 24px; 
+    margin-top: 5px;
+    padding-top: 0px;
+    cursor: pointer;
+}
+
+.ui-header {
+    color: white;
+    text-shadow: 0 1px 1px #222;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 0px;
+    padding: 5px 0px 5px 15px;
+    background: rgba(100,100,100,1); 
+}
+
+.ui-button {
+    display: block;
+    color: #ccc;
+    text-align:center;
+    padding: 5px;
+    font-weight: bold;
+    line-height: 1;
+    border-radius: 10px;
+    background: #222;
+    text-shadow: 0 -1px 1px #111;
+    border-bottom: 0px solid #222;
+    margin-bottom: 2px;
+}
+
+
+.ui-button:hover {
+    color:#fff;
+    background: #222;
+    text-shadow: 0 -1px 1px #111;
+}
+
+.ui-popup {
+    height: 0;
+    border-radius: 1px;
+    padding-bottom: 5px;
+    -webkit-transition: height 0.5s ease-out;
+}
+
+#popup-pool {
+    display: none;
+}
+
+#userAccount {
+    position: fixed;
+    clear: both;
+    bottom: 0;
+    height: 60px;
+
+    width: 300; 
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: -60px;
+    padding: 10px 10px 0px 10px;
+    z-index: 100;
+
+    background: rgba(100,100,100,1);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    cursor: pointer;
+    -webkit-transition: margin-bottom 0.3s, bottom 0.3s ease-out;
+}
+
+#userAccount:hover {
+    background: #444444;
+    margin-bottom:0px;
+}
+
+#userAccount img {
+    border-radius: 5px;
+    float: left;
+    width: 48;
+    height: 48;
+    margin-right: 5px;
+}
+
+#userAccount h1 {
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 1px 1px #222;
+    margin: 0px;
+}
+
+#userAccount span {
+    font-size: 14px;
+    color: white;
+    text-shadow: 0 1px 1px #222;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0); 
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background: rgba(100,100,100,1); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(100,100,100,0.4); 
+}
+
+.ui-expandable-icon {
+    background-image: url("theme://stock_right");
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 22px;
+    float: right;
+}
+
+.ui-expandable-icon-expanded {
+    background-image: url("theme://stock_down");
+}

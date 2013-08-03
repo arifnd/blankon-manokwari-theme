@@ -22,6 +22,7 @@ function backup {
 	fi
 
 	cp -f /usr/lib/manokwari/system/* "$PWD/backup/"
+	sudo rm -R /usr/lib/manokwari/system/*
 	echo	"Succes backup Manokwari theme..."
 }
 

@@ -1,0 +1,315 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+    font-family: Cantarell, Sans-Serif;
+    font-size: 14px;
+}
+
+/*.ui-page, .ui-content {
+    color: #aaaaaa;
+    margin: 0px;
+    padding: 0px;
+}*/
+
+.ui-page {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /*overflow-x: hidden;*/
+    /*overflow-y: auto;*/
+    z-index: 1;
+    background-color: #101010;
+    color: #e0e0e0;
+    background: url(bg.jpg);
+    margin: 0px;
+    padding-top: 0px;
+}
+
+html {
+    overflow: hidden;
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+.ui-mobile-viewport {
+}
+
+.ui-animation-slide {
+    -webkit-transition: left 0.3s ease-out;
+}
+
+.ui-listview {
+    list-style:none;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    padding: 0px;
+    width: 300px;
+}
+
+
+.ui-content {
+    margin: 5px 1px 5px 5px;
+    height: 94%;
+    width: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+   /* margin: 5px;
+    margin-bottom: 80px;*/
+}
+
+.ui-listview-item-icon {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+/*.ui-listview-item-text {
+    vertical-align: middle;
+    text-align: left; 
+    text-overflow: ellipsis;
+}*/
+
+.ui-system {
+}
+
+.ui-listview-item:hover {
+    color: #ffffff;
+    text-shadow: 0 1px 1px #000;
+    background-image: -webkit-linear-gradient(#046ACD, #0B7DEB) /*(#505050, #646464)*/;
+}
+
+.ui-listview-item {
+    background-color: rgba(100,100,100,0.5);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(16,16,16,0.8);
+    color: #e9e9e9;
+    text-shadow: 0 1px 1px #000;
+    display: block;
+    min-height: 28px;
+    border-radius: inherit;
+    cursor: pointer;
+    padding: 5px 10px 0 10px;
+    padding-top: 5px;
+    margin: 0px;
+    white-space: nowrap;
+    /*font-weight: bold;*/
+}
+
+
+.ui-listview-header {
+    border-radius: inherit;
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+    background-image: -webkit-linear-gradient(#101010, #505050);
+}
+
+.ui-listview-first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.ui-listview-last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.ui-link {
+    text-decoration: none;
+    color: inherit; 
+    vertical-align: middle;
+}
+
+
+span {
+    vertical-align: middle;
+}
+
+.ui-collapsible {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 300px;
+}
+
+.ui-collapsible-header {
+    margin: 0px;
+    min-height: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    display: block;
+    color: #e9e9e9;
+    text-shadow: 0 1px 1px #000;
+    cursor: pointer;
+    background-color: rgba(100,100,100,0.5);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(16,16,16,0.8);
+    /*font-weight: bold;*/
+ 
+}
+
+.ui-collapsible-header:hover {
+    color: #ffffff;
+    text-shadow: 0 1px 1px #000;
+    /*background-color: rgba(100,100,100,0.6);*/
+    background-image: -webkit-linear-gradient(#046ACD, #0B7DEB) /*(#505050, #646464)*/;
+}
+
+.ui-collapsible-header-top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.ui-collapsible-header-bottom {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.ui-collapsible-control-group {
+    overflow: hidden;
+    margin: 10px;
+    -webkit-transition: height 0.3s ease-out;
+}
+
+.ui-back-button {
+    background-image: url("back.png");
+    background-repeat: no-repeat;
+    color: red;
+    width: 22px;
+    height: 22px; 
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.ui-header {
+    color: #e9e9e9;
+    text-shadow: 0 1px 1px #000;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 2px 20px 2px 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(16,16,16,0.8);
+}
+
+.ui-button {
+    display: block;
+    color: #e0e0e0;
+    text-shadow: 0 1px 1px #000;
+    text-align:center;
+    padding: 4px 0 8px 0;
+    /*font-weight: bold;*/
+    line-height: 1;
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(#505050, #000000);
+    text-shadow: 0 -1px 1px #222;
+    border-bottom: 1px solid #222;
+    margin-bottom: 5px;
+}
+
+.ui-button:hover {
+    background-image: -webkit-linear-gradient(#707070, #101010);
+}
+
+.ui-popup {
+    height: 0;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    -webkit-transition: height 0.5s ease-out;
+}
+
+#popup-pool {
+    display: none;
+}
+
+#userAccount {
+    position: fixed;
+    clear: both;
+    bottom: 0;
+    height: 60px;
+
+    width: 300; 
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: -60px;
+    padding: 10px 10px 0px 10px;
+    z-index: 100;
+
+    background: url(user.svg);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    cursor: pointer;
+    -webkit-transition: margin-bottom 0.3s, bottom 0.3s ease-out;
+}
+
+#userAccount:hover {
+    margin-bottom:0px;
+}
+
+#userAccount img {
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fff;
+    float: left;
+    width: 48;
+    height: 48;
+    margin-right: 5px;
+}
+
+#userAccount h1 {
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 1px 1px #222;
+    margin: 0px;
+}
+
+#userAccount span {
+    font-size: 14px;
+    color: white;
+    text-shadow: 0 1px 1px #222;
+}
+
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: rgba(128,128,128,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(128,128,128,0.8);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    border-radius: 8px;
+    background: rgba(128,128,128,1); 
+    -webkit-box-shadow: inset 0 0 6px rgba(128,128,128,0.8);
+}
+
+.ui-expandable-icon {
+    background-image: url("go-next.png");
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    width: 22px;
+    height: 22px;
+    float: right;
+}
+
+.ui-expandable-icon-expanded {
+    background-image: url("go-down.png");
+}

@@ -21,13 +21,9 @@ function backup {
 		mkdir "$PWD/backup"
 	fi
 
-#<<<<<<< HEAD
 	cp -R /usr/lib/manokwari/system/ "$PWD/backup/"
 	sudo rm -R /usr/lib/manokwari/system/
-#=======
-#	cp -f /usr/lib/manokwari/system/* "$PWD/backup/"
-#	sudo rm -R /usr/lib/manokwari/system/*
-#>>>>>>> 55a18c8be33638e862b8b783ca7a90827fe14e3b
+
 	echo	"Succes backup Manokwari theme..."
 }
 
@@ -48,11 +44,9 @@ function change {
 	echo ""
 	echo -n "Insert number of theme to install: "
 	read index
-#<<<<<<< HEAD
+
 	echo -n "Want backup old theme [Y/n]: "
-#=======
-#	echo -n "Want backup old theme [y/N]: "
-#>>>>>>> 55a18c8be33638e862b8b783ca7a90827fe14e3b
+
 	read backup
 
 	if [[ ${FILE[$index-1]} != "" ]]; then
@@ -63,11 +57,9 @@ function change {
 
 		# Install new theme ================================================
 		echo "Install new theme..."
-#<<<<<<< HEAD
+
 		sudo cp -R $PWD/${FILE[$index-1]}/system/ /usr/lib/manokwari/
-#=======
-#		sudo cp -f $PWD/${FILE[$index-1]}/*.* /usr/lib/manokwari/system/
-#>>>>>>> 55a18c8be33638e862b8b783ca7a90827fe14e3b
+
 		echo "Restart manokwari..."
 		killall manokwari
 	fi
@@ -98,11 +90,9 @@ function restore {
 	echo "Restore theme..."
 
 	if [  -d "$PWD/backup" ]; then
-#<<<<<<< HEAD
+
 		sudo cp -R $PWD/backup/system/ /usr/lib/manokwari/
-#=======
-#		sudo cp -f $PWD/backup/* /usr/lib/manokwari/system/
-#>>>>>>> 55a18c8be33638e862b8b783ca7a90827fe14e3b
+
 	fi
 
 	echo "Succes restore Manokwari theme..."

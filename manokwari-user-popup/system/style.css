@@ -21,7 +21,7 @@ body {
     z-index: 1;
     background-color: #101010;
     color: #e0e0e0;
-    background: url(bg.jpg);
+    background: url("../img/bg.jpg");
     margin: 0px;
     padding-top: 0px;
 }
@@ -177,7 +177,7 @@ span {
 }
 
 .ui-back-button {
-    background-image: url("back.png");
+    background-image: url("../img/back.png");
     background-repeat: no-repeat;
     color: red;
     width: 22px;
@@ -243,7 +243,7 @@ span {
     padding: 10px 10px 0px 10px;
     z-index: 100;
 
-    background: url(user.svg);
+    background: url("../img/user.svg");
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap; 
@@ -302,7 +302,7 @@ span {
 }
 
 .ui-expandable-icon {
-    background-image: url("go-next.png");
+    background-image: url("../img/go-next.png");
     background-repeat: no-repeat;
     border-radius: 5px;
     width: 22px;
@@ -311,5 +311,5 @@ span {
 }
 
 .ui-expandable-icon-expanded {
-    background-image: url("go-down.png");
+    background-image: url("../img/go-down.png");
 }

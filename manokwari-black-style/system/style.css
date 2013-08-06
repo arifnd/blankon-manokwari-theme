@@ -15,7 +15,7 @@ body {
     width: 100%;
     z-index: 1;
     background-color: #101010;
-    background: url(bg.png);
+    background: url("../img/bg.png");
 }
 
 .ui-content {
@@ -170,7 +170,7 @@ span {
 }
 
 .ui-back-button {
-    background-image: url("back.png");
+    background-image: url("../img/back.png");
     background-repeat: no-repeat;
     color: red;
     width: 24px;
@@ -281,7 +281,7 @@ span {
 }
 
 .ui-expandable-icon {
-    background-image: url(folder.svg);
+    background-image: url("../img/folder.svg");
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
@@ -290,13 +290,13 @@ span {
 }
 
 .ui-expandable-icon-expanded {
-    background-image: url(folder-open.svg);
+    background-image: url("../img/folder-open.svg");
 }
 
 /****** System Admininstration ******/
 
 .ui-expandable-icon-locations {
-    background-image: url("disk.svg");
+    background-image: url("../img/disk.svg");
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
@@ -305,7 +305,7 @@ span {
 }
 
 .ui-expandable-icon-settings {
-    background-image: url("settings.svg");
+    background-image: url("../img/settings.svg");
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
@@ -314,7 +314,7 @@ span {
 }
 
 .ui-expandable-icon-lock {
-    background-image: url("lock.svg");
+    background-image: url("../img/lock.svg");
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
@@ -323,7 +323,7 @@ span {
 }
 
 .ui-expandable-icon-logout {
-    background-image: url("logout.svg");
+    background-image: url("../img/logout.svg");
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
@@ -332,7 +332,7 @@ span {
 }
 
 .ui-expandable-icon-shutdown {
-    background-image: url("shutdown.svg");
+    background-image: url("../img/shutdown.svg");
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
@@ -341,7 +341,7 @@ span {
 }
 
 #searchbox {
-    background: url("find.png") no-repeat 6px 0px #eee;
+    background: url("../img/find.png") no-repeat 6px 0px #eee;
     border-radius: 20px;
     border-width: 2px; 
     width: 270px;
@@ -353,7 +353,7 @@ span {
 
 #searchresult {
 	color: white;
-	background: url("texture_bg.png");
+	background: url("../img/texture_bg.png");
 	top: 30px;
 	left: 0px;
 	margin: 10px;
